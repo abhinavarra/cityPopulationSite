@@ -1,0 +1,22 @@
+<!Doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>City Population</title>
+</head>
+
+<body>
+    <div class="row">
+       <div class="icon-bar" align="center"><h4>Population Summary</h4>
+           <input ng-model='vm.filterValue' ng-change='vm.singleFilter()'/><button class="search-icon" ng-click='vm.filter()'><i class="fa fa-search"></i></button>
+        </div>
+       <div style="height: 460px; width: 100%" ui-grid="vm.gridOptions" ui-grid-pagination="myGrid" class="grid col-md-12"></div> 
+    </div>
+    
+  
+</body>
+</html>
+
+

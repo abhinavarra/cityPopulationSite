@@ -1,0 +1,22 @@
+{
+  "name": "citypopulationsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.4.0",
+    "angular-animate": "^1.4.0",
+    "angular-touch": "^1.4.0",
+    "angular-ui-bootstrap": "^2.5.0",
+    "angular-ui-grid": "^4.0.4",
+    "angular-ui-router": "^1.0.3",
+    "bootstrap": "^3.3.7",
+    "express": "^4.15.3"
+  }
+}
